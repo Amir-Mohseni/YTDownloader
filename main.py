@@ -13,10 +13,10 @@ for i in range(0,n):
 for i in range(0,n):
     link = links[i]
     yt = YouTube(link)
-    print("\nDetails for Video",i+1,"\n")
-    print("Title of video:   ",yt.title)
-    print("Number of views:  ",yt.views)
-    print("Length of video:  ",yt.length,"seconds")
+    print("\nDetails for Video", i+1, "\n")
+    print("Title of video:   ", yt.title)
+    print("Number of views:  ", yt.views)
+    print("Length of video:  ", yt.length,"seconds")
     stream = str(yt.streams.filter(progressive=True))
     stream = stream[1:]
     stream = stream[:-1]
