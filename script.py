@@ -18,7 +18,7 @@ except:
 mp4files = yt.filter('mp4')
 
 # to set the name of the file
-yt.set_filename('GeeksforGeeks Video')
+yt.set_filename('Downloaded Video')
 
 # get the video with the extension and
 # resolution passed in the get() function
